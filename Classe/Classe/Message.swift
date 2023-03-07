@@ -21,4 +21,12 @@ class Message {
         self.font = font
         self.size = size
     }
+    
+    func getMessage() -> String {
+        return content
+    }
+    
+    func getSize() -> CGFloat {
+        return size
+    }
 }

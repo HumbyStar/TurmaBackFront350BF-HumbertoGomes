@@ -21,4 +21,12 @@ class User {
         self.friends = friends
         self.publicPerfil = publicPerfil
     }
+    
+    func getFriends() -> String {
+        return "Numero de amigos atuais: \(contacts)"
+    }
+    
+    func isPublicPerfil() -> Bool {
+        return publicPerfil
+    }
 }

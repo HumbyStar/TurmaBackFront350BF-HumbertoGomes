@@ -21,4 +21,13 @@ class Account {
         self.passworld = passworld
         self.cellphoneNumber = cellphoneNumber
     }
+    
+    func getEmail() -> String {
+        return email
+    }
+    
+    func getInfoAccount() -> String {
+        let info = "\(name), \(email), \(cellphoneNumber)"
+        return info
+    }
 }
