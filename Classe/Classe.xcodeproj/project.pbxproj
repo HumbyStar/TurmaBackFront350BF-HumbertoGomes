@@ -16,6 +16,7 @@
 		0C36EC7629B80115009550C8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C36EC7529B80115009550C8 /* Message.swift */; };
 		0C36EC7829B8011D009550C8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C36EC7729B8011D009550C8 /* User.swift */; };
 		0C36EC7A29B80137009550C8 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C36EC7929B80137009550C8 /* Account.swift */; };
+		0C36EC8129B821DF009550C8 /* Aula Caio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C36EC8029B821DF009550C8 /* Aula Caio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		0C36EC7529B80115009550C8 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		0C36EC7729B8011D009550C8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0C36EC7929B80137009550C8 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		0C36EC8029B821DF009550C8 /* Aula Caio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Aula Caio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,18 +64,43 @@
 		0C36EC6029B7F772009550C8 /* Classe */ = {
 			isa = PBXGroup;
 			children = (
-				0C36EC6129B7F772009550C8 /* AppDelegate.swift */,
-				0C36EC6329B7F772009550C8 /* SceneDelegate.swift */,
-				0C36EC6529B7F772009550C8 /* ViewController.swift */,
-				0C36EC7529B80115009550C8 /* Message.swift */,
-				0C36EC7729B8011D009550C8 /* User.swift */,
-				0C36EC7929B80137009550C8 /* Account.swift */,
-				0C36EC6729B7F772009550C8 /* Main.storyboard */,
-				0C36EC6A29B7F775009550C8 /* Assets.xcassets */,
-				0C36EC6C29B7F775009550C8 /* LaunchScreen.storyboard */,
+				0C36EC8029B821DF009550C8 /* Aula Caio.swift */,
+				0C36EC7C29B807CB009550C8 /* Resources */,
+				0C36EC7B29B807BF009550C8 /* Model */,
+				0C36EC7D29B807D6009550C8 /* View */,
 				0C36EC6F29B7F775009550C8 /* Info.plist */,
 			);
 			path = Classe;
+			sourceTree = "<group>";
+		};
+		0C36EC7B29B807BF009550C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C36EC7529B80115009550C8 /* Message.swift */,
+				0C36EC7729B8011D009550C8 /* User.swift */,
+				0C36EC7929B80137009550C8 /* Account.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C36EC7C29B807CB009550C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C36EC6129B7F772009550C8 /* AppDelegate.swift */,
+				0C36EC6329B7F772009550C8 /* SceneDelegate.swift */,
+				0C36EC6729B7F772009550C8 /* Main.storyboard */,
+				0C36EC6A29B7F775009550C8 /* Assets.xcassets */,
+				0C36EC6C29B7F775009550C8 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0C36EC7D29B807D6009550C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0C36EC6529B7F772009550C8 /* ViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C36EC8129B821DF009550C8 /* Aula Caio.swift in Sources */,
 				0C36EC6629B7F772009550C8 /* ViewController.swift in Sources */,
 				0C36EC7629B80115009550C8 /* Message.swift in Sources */,
 				0C36EC6229B7F772009550C8 /* AppDelegate.swift in Sources */,
